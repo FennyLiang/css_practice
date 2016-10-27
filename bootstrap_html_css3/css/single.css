@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Yanone+Kaffeesatz');
+
+html, body{
+    background-color: seashell;
+    height: 100%;
+}
+
+.container{
+    top:50%;
+    transform: translateY(-50%);
+    position: relative;
+    /*若設定有關高度的項目，例如top;height;translateY  要設定position*/
+}
+
+.full-height{
+    height: 100%;
+    background-color: #FFFFFF ;
+}
+
+
+
+.single{
+    /*background-color: white;*/
+    padding: 0;
+}
+
+
+.image-content{
+    padding: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: #5e5e5e;
+}
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: #5e5e5e;
+}
+
+h6{
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 870px;
+        /*開chrome debug工具  看不同size的寬度，此例為最大螢幕時修改container寬度*/
+    }
+}
+
